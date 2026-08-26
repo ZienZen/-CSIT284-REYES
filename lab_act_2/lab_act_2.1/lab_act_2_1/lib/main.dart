@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lab_act_2_1/dice_roller.dart';
 
 void main () {
 
@@ -13,24 +14,7 @@ void main () {
               ])
           ),
           child: Center(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Image.asset(
-                  width: 200,
-                  'assets/dice-images/dice-images/dice-2.png'
-                  ),
-                  SizedBox(height: 20),
-                TextButton(
-                  onPressed: () {}, 
-                  child: Text(
-                    style: TextStyle(
-                      fontSize: 28,
-                    ),
-                    "Roll Dice")),
-              ],)
-          
-                   
+            child: diceRoller(),        
           ),
         ),
       ),
