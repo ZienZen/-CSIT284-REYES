@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:meals/models/category.dart';
+import 'package:meals_2/models/category.dart';
 
 class CategoryGridItem extends StatelessWidget {
   const CategoryGridItem({
@@ -33,7 +33,7 @@ class CategoryGridItem extends StatelessWidget {
         child: Text(
           category.title,
           style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                color: Theme.of(context).colorScheme.onBackground,
+                color: Theme.of(context).colorScheme.onSurface,
               ),
         ),
       ),
